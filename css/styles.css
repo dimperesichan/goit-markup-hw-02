@@ -1,33 +1,197 @@
+:root {
+  --accent-color: #2196F3;
+}
+
+
 .list{
   list-style: none;
 }
 
+.link{
+  text-decoration: none;
+}
 
-
-
-
-.novigation-itom {
+.body{
   font-family: "Roboto", sans-serif;
+}
+.logo-text{
+  color: #2196F3;
+}
+
+.logo-text-itom{
+  color: #000000;
+}
+
+/*=====HEADER=====*/
+
+.menu-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
+.menu-link:hover,
+.menu-link:focus{
+  color: var(--accent-color);
+}
 .mail-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
+}
+.mail-link:hover,
+.mail-link:focus{
+  color: var(--accent-color);
 }
 
 .tel-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  
 }
+.tel-link:hover,
+.tel-link:focus{
+  color: var(--accent-color);
+}
+
+/*=====END HEADER=====*/
+
+/*=========HERO========*/
+
+.modal-btn{
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background: #188CE8;
+}
+.modal-btn:hover,
+.modal-btn:focus{
+background-color: #2196F3;
+}
+/*=========END HERO========*/
+
+/*======О НАС======*/
+
+.about-us-title{
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.about-us-title-itom{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/*====== КОНЕЦ О НАС======*/
+
+/*=====НАШИ ПРОЭКТЫ=====*/
+
+.rojects-section-list{
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+/*=====КОНЕЦ НАШИ ПРОЭКТЫ=====*/
+
+/*=====КОМАНДА=====*/
+.our-team-list{
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.our-team-list-itom{
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #212121;
+}
+
+.our-team-list-position{
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #757575;
+}
+/*=====КОНЕЦ КОМАНДА=====*/
+
+/*=====FOOTER=====*/
+.maps-link{
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.mail-link,
+.tel-link{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-logo-text-itom{
+  color: #FFFFFF;
+}
+/*=====END FOOTER=====*/
+
+/*=====FILTER=====*/
+
+.filter{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.filter:hover,
+.filter:focus{
+color: var(--accent-color);
+}
+/*=====END FILTER=====*/
+/*=====CARDS=====*/
+.cards-itom{
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.cards-product{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.8;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+
+
