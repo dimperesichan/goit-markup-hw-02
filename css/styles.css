@@ -14,24 +14,30 @@
 .body{
   font-family: "Roboto", sans-serif;
 }
+
 .logo-text{
-  color: #2196F3;
-}
-
-.logo-text-itom{
-  color: #000000;
-}
-
-/*=====HEADER=====*/
-
-.logo-link{
-font-family: Raleway, sans-serif;
+font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
+color: #2196F3;
 }
+
+.logo-text-itom{
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+/*=====HEADER=====*/
+
+
 
 .menu-link {
   font-family: 'Roboto', sans-serif;
@@ -46,13 +52,14 @@ letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
+
 .mail-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: color: #757575;
+  color: #757575;
 }
 .mail-link:hover,
 .mail-link:focus{
@@ -104,6 +111,7 @@ background: #188CE8;
 .modal-btn:hover,
 .modal-btn:focus{
 background-color: #2196F3;
+cursor: pointer;
 }
 /*=========END HERO========*/
 
@@ -169,46 +177,94 @@ color: #757575;
 /*=====КОНЕЦ КОМАНДА=====*/
 
 /*=====FOOTER=====*/
-.maps-link{
-font-family: 'Roboto', sans-serif;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-}
 
-.mail-link,
-.tel-link{
-font-family: 'Roboto', sans-serif;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
+.footer-logo-text{
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color: #2196F3;
 }
 
 .footer-logo-text-itom{
-  color: #FFFFFF;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #353434;
+}
+
+.maps-link{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #424141;
+}
+
+.maps-link:hover,
+.maps-link:focus{
+  color: var(--accent-color);
+}
+
+.footer-mail{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(54, 52, 52, 0.6);
+}
+
+.footer-mail:hover,
+.footer-mail:focus{
+  color: var(--accent-color);
+}
+
+.footer-tel{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(56, 55, 55, 0.6);
+cursor: pointer;
+}
+
+.footer-tel:hover,
+.footer-tel:focus{
+  color: var(--accent-color);
 }
 /*=====END FOOTER=====*/
 
+
 /*=====FILTER=====*/
 
-.filter{
-  font-family: 'Roboto', sans-serif;
+.button{
+font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
-text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+cursor: pointer;
 }
+
 .filter:hover,
 .filter:focus{
 color: var(--accent-color);
 }
 /*=====END FILTER=====*/
+
+
 /*=====CARDS=====*/
 .cards-itom{
 font-family: 'Roboto', sans-serif;
